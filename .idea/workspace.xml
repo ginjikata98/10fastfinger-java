@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a09cc72-2c20-41e5-92b3-c1cee23e8698" name="Default Changelist" comment="ignore user pass">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credentials.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kGEb52hD2Bb0bSp0fIIIKWCneZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ThoundsandCompetitions">
+    <configuration name="FiftyGrinders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FiftyGrinders" />
+      <module name="10fast" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Script2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Script2" />
+      <module name="10fast" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThoundsandCompetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThoundsandCompetitions" />
+      <module name="10fast" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThoundsandCompetitions" />
+        <item itemvalue="Application.FiftyGrinders" />
+        <item itemvalue="Application.Script2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a09cc72-2c20-41e5-92b3-c1cee23e8698" name="Default Changelist" comment="" />
+      <created>1605318597574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605318597574</updated>
+      <workItem from="1605318598758" duration="12252000" />
+    </task>
+    <task id="LOCAL-00001" summary="ignore user pass">
+      <created>1605328125089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605328125089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update type">
+      <created>1605328328365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605328328365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="complete 50 grinders achievement.&#10;complete 1000 competitions achievement.">
+      <created>1605412717379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605412717379</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update msg">
+      <created>1605413787366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605413787366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="ignore user pass" />
+    <MESSAGE value="update type" />
+    <MESSAGE value="complete 50 grinders achievement.&#10;complete 1000 competitions achievement." />
+    <MESSAGE value="update msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="update msg" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="42" key="#Project_Structure" timestamp="1605324453625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="42" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605324453625" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605327850894">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605327850894" />
+    <state x="433" y="315" key="#xdebugger.evaluate" timestamp="1605407521731">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="315" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1605407521731" />
+    <state x="311" y="40" key="CommitChangelistDialog2" timestamp="1605413786823">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="311" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605413786823" />
+    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1605325715019">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="451" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1605325715019" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1605412720693">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605412720693" />
+    <state width="1398" height="136" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605408161406" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1605412720692">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605412720692" />
+    <state width="1398" height="136" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605408161405" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1605412720690">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605412720690" />
+    <state width="1398" height="136" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605408161405" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1605412720693">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605412720693" />
+    <state width="1398" height="136" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605408161406" />
+    <state width="1398" height="229" key="GridCell.Tab.1.bottom" timestamp="1605407637800">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="7" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605406852414" />
+    <state width="1398" height="229" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605407637800" />
+    <state width="1398" height="229" key="GridCell.Tab.1.center" timestamp="1605407637799">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="7" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605406852414" />
+    <state width="1398" height="229" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1605407637799" />
+    <state width="1398" height="229" key="GridCell.Tab.1.left" timestamp="1605407637798">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="7" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605406852413" />
+    <state width="1398" height="229" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1605407637798" />
+    <state width="1398" height="229" key="GridCell.Tab.1.right" timestamp="1605407637800">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="7" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605406852414" />
+    <state width="1398" height="229" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1605407637800" />
+    <state width="720" height="436" key="XDebugger.FullValuePopup" timestamp="1605406207884">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="436" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1605406207884" />
+  </component>
+</project>
