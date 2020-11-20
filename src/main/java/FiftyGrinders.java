@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class FiftyGrinders {
     static WebDriver driver;
@@ -14,11 +15,9 @@ public class FiftyGrinders {
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
 
-        driver.get("https://10fastfingers.com/login");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Thread.sleep(3000);
-        WebElement cookies = findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID);
-        cookies.click();
+        driver.get("https://10fastfingers.com/login");
 
         WebElement email = findElement("UserEmail", BY.ID);
         WebElement password = findElement("UserPassword", BY.ID);
@@ -38,13 +37,11 @@ public class FiftyGrinders {
 
         driver.get("https://10fastfingers.com/competitions");
 
-        Thread.sleep(3000);
-
         String lastCompetitionLink = driver.findElement(By.cssSelector("#join-competition-table tbody tr:last-child .btn-default")).getAttribute("href");
 
         driver.get(lastCompetitionLink);
 
-        Thread.sleep(3000);
+        findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID).click();
 
         while (true) {
             try {
@@ -81,7 +78,6 @@ public class FiftyGrinders {
             } catch (Exception e) {
                 System.out.printf("Error trying to get element %s attempt %s", text, attempt);
                 attempt++;
-                Thread.sleep(1000);
             }
         }
 

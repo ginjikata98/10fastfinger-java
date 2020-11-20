@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class ThoundsandTests {
     static WebDriver driver;
@@ -14,11 +15,9 @@ public class ThoundsandTests {
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
 
-        driver.get("https://10fastfingers.com/login");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Thread.sleep(3000);
-        WebElement cookies = findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID);
-        cookies.click();
+        driver.get("https://10fastfingers.com/login");
 
         WebElement email = findElement("UserEmail", BY.ID);
         WebElement password = findElement("UserPassword", BY.ID);
@@ -36,7 +35,8 @@ public class ThoundsandTests {
             ex.printStackTrace();
         }
 
-        Thread.sleep(2000);
+        findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID).click();
+        Thread.sleep(1000);
 
         while (true) {
             try {
@@ -73,7 +73,6 @@ public class ThoundsandTests {
             } catch (Exception e) {
                 System.out.printf("Error trying to get element %s attempt %s", text, attempt);
                 attempt++;
-                Thread.sleep(1000);
             }
         }
 

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 public class ThoundsandCompetitions {
@@ -16,11 +17,9 @@ public class ThoundsandCompetitions {
         System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
 
-        driver.get("https://10fastfingers.com/login");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Thread.sleep(3000);
-        WebElement cookies = findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID);
-        cookies.click();
+        driver.get("https://10fastfingers.com/login");
 
         WebElement email = findElement("UserEmail", BY.ID);
         WebElement password = findElement("UserPassword", BY.ID);
@@ -40,21 +39,19 @@ public class ThoundsandCompetitions {
 
         driver.get("https://10fastfingers.com/competitions");
 
-        Thread.sleep(3000);
-
         List<String> competitionLinks = driver
-            .findElements(By.cssSelector("#join-competition-table tbody tr td .btn-default"))
-            .stream()
-            .map(link -> link.getAttribute("href"))
-            .collect(Collectors.toList());
+                .findElements(By.cssSelector("#join-competition-table tbody tr td .btn-default"))
+                .stream()
+                .map(link -> link.getAttribute("href"))
+                .collect(Collectors.toList());
 
         int count = competitionLinks.size();
 
-        for (String link : competitionLinks) {
-            System.out.printf("%s links left", count);
-            driver.get(link);
+        findElement("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", BY.ID).click();
 
-            Thread.sleep(3000);
+        for (String link : competitionLinks) {
+            System.out.printf("%s links left%n", count);
+            driver.get(link);
 
             while (true) {
                 try {
@@ -77,6 +74,8 @@ public class ThoundsandCompetitions {
                 }
             }
         }
+
+        driver.quit();
     }
 
     private static WebElement findElement(String text, BY type) throws InterruptedException {
@@ -92,7 +91,6 @@ public class ThoundsandCompetitions {
             } catch (Exception e) {
                 System.out.printf("Error trying to get element %s attempt %s", text, attempt);
                 attempt++;
-                Thread.sleep(1000);
             }
         }
 
