@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a09cc72-2c20-41e5-92b3-c1cee23e8698" name="Default Changelist" comment="ignore user pass">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/achievement.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FiftyGrinders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FiftyGrinders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThoundsandCompetitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThoundsandCompetitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +30,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1606450691" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1606450690" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -66,8 +91,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ThoundsandTests">
+  <component name="RunManager" selected="Application.ThoundsandCompetitions">
     <configuration name="FiftyGrinders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FiftyGrinders" />
       <module name="10fast" />
@@ -96,24 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThoundsandCompetitions" />
         <item itemvalue="Application.ThoundsandTests" />
         <item itemvalue="Application.FiftyGrinders" />
-        <item itemvalue="Application.ThoundsandCompetitions" />
         <item itemvalue="Application.Script2" />
       </list>
     </recent_temporary>
@@ -134,6 +149,9 @@
       <workItem from="1605711645772" duration="1089000" />
       <workItem from="1605791762854" duration="963000" />
       <workItem from="1605877781028" duration="1252000" />
+      <workItem from="1606577129223" duration="3806000" />
+      <workItem from="1606899791032" duration="782000" />
+      <workItem from="1606963577982" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="ignore user pass">
       <created>1605328125089</created>
@@ -186,6 +204,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="42" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1605324453625" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606450691632">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1606450691632" />
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605327850894">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -202,26 +224,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="451" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1605325715019" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1605885023328">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1606621465155">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605884952612" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1605885023328" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1605885023327">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606621465155" />
+    <state width="1398" height="333" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1606577056924" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1606621465154">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605884952610" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1605885023327" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1605885023326">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606621465154" />
+    <state width="1398" height="333" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1606577056924" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1606621465153">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605884952610" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1605885023326" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1605885023328">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606621465153" />
+    <state width="1398" height="333" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1606577056924" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1606621465154">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605884952611" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1605885023328" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606621465154" />
+    <state width="1398" height="333" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1606577056924" />
     <state width="1398" height="229" key="GridCell.Tab.1.bottom" timestamp="1605407637800">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
