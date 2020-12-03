@@ -12,3 +12,7 @@
 
 [1000 Competitions achievement](src/main/java/ThoundsandCompetitions.java)
 
+
+### Other versions
+
+[JS + Puppeteer](https://github.com/ginjikata98/10fastfinger-js)

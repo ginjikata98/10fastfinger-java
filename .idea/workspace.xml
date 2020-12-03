@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a09cc72-2c20-41e5-92b3-c1cee23e8698" name="Default Changelist" comment="ignore user pass">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a09cc72-2c20-41e5-92b3-c1cee23e8698" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,7 @@
       <workItem from="1605877781028" duration="1252000" />
       <workItem from="1606577129223" duration="3806000" />
       <workItem from="1606899791032" duration="782000" />
-      <workItem from="1606963577982" duration="413000" />
+      <workItem from="1606963577982" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="ignore user pass">
       <created>1605328125089</created>
@@ -181,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605413787366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add README.md">
+      <created>1606964104816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606964104816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +201,8 @@
     <MESSAGE value="update type" />
     <MESSAGE value="complete 50 grinders achievement.&#10;complete 1000 competitions achievement." />
     <MESSAGE value="update msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="update msg" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="42" key="#Project_Structure" timestamp="1605324453625">
@@ -216,10 +221,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="433" y="315" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1605407521731" />
-    <state x="311" y="40" key="CommitChangelistDialog2" timestamp="1605413786823">
+    <state x="311" y="40" key="CommitChangelistDialog2" timestamp="1606964104661">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="311" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605413786823" />
+    <state x="311" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1606964104661" />
     <state width="451" height="466" key="DebuggerActiveHint" timestamp="1605325715019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -269,6 +274,10 @@
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605490935615" />
     <state x="229" y="109" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605619824400" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1606964106090">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606964106090" />
     <state width="720" height="436" key="XDebugger.FullValuePopup" timestamp="1605406207884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
